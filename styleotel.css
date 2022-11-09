@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 95vh;
+    background-image: url(bg.jpg);
+    background-size:cover;
+
+}
+.logo img{
+    width: 100px;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+#icerik{
+    display: inline-block;
+    width: 60%;
+    float: left;
+    margin-left: 15%;
+}
+#icerik::after{
+    content: "";
+    display: inline-block;
+    float: left;
+}
+#baglantilar{
+    width: 18%;
+    display: inline-block;
+    float: left;
+    margin-left: 5px;
+    position: fixed;
+    bottom: 25px;
+    right: 5px;
+}
+.head{
+    font-family:'Kalam', cursive;
+    margin-left: 40%;
+    margin-top: 15%;
+}
+.bilgi p{
+    margin-left: 20px;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    text-indent: 10px;
+    line-height: 150%;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: bold;
+}
+.bilgi p::first-letter{
+    font-size: 36px;
+}
+.photo{
+    width: 33%;
+    float: left;
+    border: 1px solid #ccc;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    margin-bottom: 5px;
+    
+}
+.photo div{
+    background-color: #ccc;
+    opacity: 0.6;
+    text-align: center;
+}
+.photo:hover{
+    cursor: pointer;
+    border: 1px solid #777;
+}
+.photo img{
+    width: 100%;
+    height: 300px;
+    
+}
+.sil{
+    clear: both;
+}
+.fun ol li{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 5px;
+    color: white;
+}
+.yazılar{
+    letter-spacing: 1px;
+    text-indent: 10px;
+    line-height: 150%;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: bold;
+    color: #5656ff;
+    
+}
+.liste{
+    display: inline-block;
+    width: 50%;
+    padding: 2px;
+    float: left;
+    
+}
+.liste span{
+    color: #bfbf00;
+}
+h3{
+    margin-top: 50px;
+    padding: 5px;
+    font-size: 25px;
+    text-align: center;
+    color: #C2B49B;
+}
+.form p{
+    font-size: 20px;
+    color: #C2B49B;
+}
+form{
+    margin-top: 20px;
+}
+.inputs{
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+span{
+    font-size: 19px;
+    color: #C2B49B;
+}
+input[type="radio"]{
+    margin-left: 30px;
+}
+input[type="submit"]{
+    padding: 10px;
+    margin: 10px 40%;
+    width: 150px;
+    background-color: #00ff7f;
+    color: #7f7f7f;
+    transition: background-color 0.5s,color 0.5s;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: red;
+    color: #00ff7f;
+}
+input[type="text"]:focus{
+    background-color: #aaffd4;
+}
+i{
+    font-size: 25px;
+    padding: 1px;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+#baglantilar p{
+    font-size: 20px;
+    color:darkgoldenrod;
+}
+.red{
+    color: red;
+    transition:  color 10sn;
+}
+.red:hover{
+    color:gray;
+}
+.blue{
+    color: blue;
+}
+.blue:hover{
+    color:gray;
+}
+.green{
+    color: green;
+}
+.green:hover{
+    color:gray;
+}
+.isim{
+    margin: 0px;
+    text-align: left;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: #ccc;
+    font-size: 18px;
+    font-weight: bold;
+}
+
